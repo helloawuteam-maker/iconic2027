@@ -13,14 +13,14 @@ export default function AuthorInformationPage() {
           </p>
           <h1 className="mt-3 text-3xl font-black tracking-tight">Paper & Author Guidelines</h1>
           <p className="mt-3 max-w-3xl text-sm font-semibold text-zinc-700">
-            Everything authors need: call for paper, important dates, registration fee, and submission.
+            Everything authors need: call for paper, important dates, registration fee, and submission for 2027 ICONIQ.
           </p>
         </div>
 
         <section id="callforpaper" className="mt-8 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-black">Call For Paper</h2>
           <p className="mt-3 text-sm text-zinc-700">
-            2026 ICONIQ invites researchers, practitioners, and industry professionals to submit original research papers that
+            2027 ICONIQ invites researchers, practitioners, and industry professionals to submit original research papers that
             advance the state of the art in engineering and technology with an emphasis on innovation, quality, reliability, and
             real-world impact. The conference is a forum to share new methods, systems, and applications that improve how
             technologies are designed, implemented, tested, and adopted.
@@ -45,24 +45,28 @@ export default function AuthorInformationPage() {
           <h2 className="text-xl font-black">Important Dates</h2>
           <dl className="mt-4 grid gap-3 text-sm">
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Registration and Abstract</dt>
-              <dd className="font-semibold text-zinc-700">August 1, 2026</dd>
+              <dt className="font-black text-zinc-900">Deadline Submission</dt>
+              <dd className="font-semibold text-zinc-700">May 12, 2027</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Notification of Acceptance</dt>
-              <dd className="font-semibold text-zinc-700">August 18, 2026</dd>
+              <dd className="font-semibold text-zinc-700">July 23, 2027</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
-              <dt className="font-black text-zinc-900">Deadline of Payment</dt>
-              <dd className="font-semibold text-zinc-700">August 21, 2026</dd>
+              <dt className="font-black text-zinc-900">Early Bird Registration</dt>
+              <dd className="font-semibold text-zinc-700">July 30, 2027</dd>
+            </div>
+            <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
+              <dt className="font-black text-zinc-900">Normal Registration</dt>
+              <dd className="font-semibold text-zinc-700">August 6, 2027</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Full Paper (Camera Ready)</dt>
-              <dd className="font-semibold text-zinc-700">September 16, 2026</dd>
+              <dd className="font-semibold text-zinc-700">August 13, 2027</dd>
             </div>
             <div className="grid gap-1 rounded-xl border border-black/5 bg-white px-4 py-3 md:grid-cols-[1fr_240px] md:items-center md:gap-6">
               <dt className="font-black text-zinc-900">Main Conference</dt>
-              <dd className="font-semibold text-zinc-700">August 28, 2026</dd>
+              <dd className="font-semibold text-zinc-700">August 27-29, 2027</dd>
             </div>
           </dl>
         </section>
@@ -122,7 +126,7 @@ export default function AuthorInformationPage() {
 
           <h3 className="mt-5 text-sm font-black text-zinc-900">First Paper Submission</h3>
           <p className="mt-2 text-sm text-zinc-700">
-            All papers submitted to the ICONIQ 2026 must be written in English and formatted in the standard double-column format (A4 size). Please use the Microsoft Word template only.
+            All papers submitted to the ICONIQ 2027 must be written in English and formatted in the standard double-column format (A4 size). Please use the Microsoft Word template only.
           </p>
           <ul className="mt-4 grid gap-2 pl-5 text-sm text-zinc-700">
             <li className="list-disc">
@@ -148,14 +152,14 @@ export default function AuthorInformationPage() {
               reason, the accepted paper will not be considered for submission to the conference proceedings.
             </li>
             <li className="list-disc">
-              At least one of the authors listed on the paper must register for ICONIQ 2026 to upload the final manuscript.
+              At least one of the authors listed on the paper must register for ICONIQ 2027 to upload the final manuscript.
             </li>
             <li className="list-disc">
               An official Acceptance Letter or Official Invitation Letter will be given after the registrant pays the registration
               fee.
             </li>
             <li className="list-disc">
-              <strong className="font-black text-zinc-900">NOTE:</strong> Papers that are accepted and presented at ICONIQ 2026 will be submitted for publication in the conference proceedings. Papers not presented by the author at the conference may be excluded from publication.
+              <strong className="font-black text-zinc-900">NOTE:</strong> Papers that are accepted and presented at ICONIQ 2027 will be submitted for publication in the conference proceedings. Papers not presented by the author at the conference may be excluded from publication.
             </li>
           </ul>
         </section>

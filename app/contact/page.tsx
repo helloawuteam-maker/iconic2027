@@ -12,7 +12,7 @@ export default function ContactPage() {
             Contact
           </p>
           <h1 className="mt-3 text-3xl font-black tracking-tight">Contact Us</h1>
-          <p className="mt-3 max-w-3xl text-sm font-semibold text-zinc-700">Reach us via email, CP, or venue information below.</p>
+          <p className="mt-3 max-w-3xl text-sm font-semibold text-zinc-700">Reach us via email, CP, or venue information below for 2027 ICONIQ.</p>
         </div>
 
         <section className="mt-8 grid gap-4 md:grid-cols-2">

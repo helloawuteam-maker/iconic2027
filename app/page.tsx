@@ -18,25 +18,26 @@ type Speaker = {
 };
 
 const importantDates: DateRow[] = [
-  { label: "Registration and Abstract", value: "August 1, 2026" },
-  { label: "Notification of Acceptance", value: "August 18, 2026" },
-  { label: "Deadline of Payment", value: "August 21, 2026" },
-  { label: "Full Paper (Camera Ready)", value: "September 16, 2026" },
-  { label: "Main Conference", value: "August 28, 2026" },
+  { label: "Deadline Submission", value: "May 12, 2027" },
+  { label: "Notification of Acceptance", value: "July 23, 2027" },
+  { label: "Early Bird Registration", value: "July 30, 2027" },
+  { label: "Normal Registration", value: "August 6, 2027" },
+  { label: "Full Paper (Camera Ready)", value: "August 13, 2027" },
+  { label: "Main Conference", value: "August 27-29, 2027" },
 ];
 
 const keynoteSpeakers: Speaker[] = [
   {
-    name: "Prof. Nobuo Funabiki",
-    role: "Okayama University - Japan",
-    expertise: "Expert in Signal Processing, Machine Intelligence, and Advanced Communication Systems",
-    imageSrc: "/speakers/nobuo-funabiki.jpg",
+    name: "Prof. József András Fülöp",
+    role: "ELI-ALPS Research Institute, Hungary",
+    expertise: "Expert in Advanced Laser Systems and Research",
+    imageSrc: "/speakers/jozsef.jpeg",
   },
   {
-    name: "Prof. Jing-Ming Guo",
-    role: "National Taiwan University of Science and Technology",
-    expertise: "Expert in Robotics, AI, and Intelligent System Applications",
-    imageSrc: "/speakers/jing-ming.jpg",
+    name: "Prof. Nur Iriawan, M.Ikom, Ph.D.",
+    role: "Statistic Department, Institut Teknologi Sepuluh Nopember (ITS), Indonesia",
+    expertise: "Expert in Statistics and Data Analysis",
+    imageSrc: "/speakers/nur-iriawan.jpg",
   },
 ];
 
@@ -157,11 +158,11 @@ export default function Home() {
             <div className="grid">
               <div className="text-center">
                 <h2 className="text-sm font-black uppercase tracking-[0.18em] text-white/95 md:text-base">
-                  August 28, 2026 | Four Star by Trans Hotel, Bali Indonesia
+                  August 27-29, 2027 | Four Star by Trans Hotel, Bali Indonesia
                 </h2>
 
                 <h1 className="mt-5 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
-                  2026
+                  2027
                   <br />
                   International Conference
                   <br />
@@ -169,7 +170,7 @@ export default function Home() {
                   <br />
                   in Engineering and Technology
                   <br />
-                  (2026 ICONIQ)
+                  (2027 ICONIQ)
                 </h1>
 
                 <h2 className="mt-4">
@@ -249,12 +250,12 @@ export default function Home() {
 
         <HomeSection2 />
 
-        <TrackSlider heading="ICONIQ 2026 Tracks" tracks={[...homeTracks]} />
+        <TrackSlider heading="ICONIQ 2027 Tracks" tracks={[...homeTracks]} />
 
         <section className="relative overflow-hidden py-16 text-white">
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(43,50,126,0.86)_0%,rgba(14,165,164,0.76)_100%),radial-gradient(1000px_600px_at_60%_50%,rgba(17,17,36,0.55)_0%,rgba(17,17,36,0)_70%),linear-gradient(135deg,#3b1f58_0%,#2b327e_45%,#111124_100%)]" />
           <div className="relative mx-auto w-full max-w-6xl px-5">
-            <p className="text-sm font-black opacity-95">2026 International Conference (2026 ICONIQ)</p>
+            <p className="text-sm font-black opacity-95">2027 International Conference (2027 ICONIQ)</p>
             <h2 className="mt-2 text-3xl font-black tracking-tight md:text-4xl">Innovation and Quality in Engineering and Technology:</h2>
             <p className="mt-3 max-w-4xl text-lg font-semibold text-white/95 md:text-xl">
               Bringing Human Behavior and Social Dynamics into the Technological Ecosystem
@@ -262,7 +263,7 @@ export default function Home() {
             <p className="mt-4 text-sm font-black opacity-95">
               Four Star by Trans Hotel, Bali Indonesia
               <br />
-              August 28, 2026
+              August 27-29, 2027
             </p>
           </div>
         </section>
@@ -290,9 +291,9 @@ export default function Home() {
               </div>
 
               <Countdown
-                targetISO="2026-08-28T00:00:00+07:00"
-                title="2026 ICONIQ"
-                note="Target: Aug 28, 2026 (WIB)"
+                targetISO="2027-08-27T00:00:00+07:00"
+                title="2027 ICONIQ"
+                note="Target: Aug 27, 2027 (WIB)"
               />
             </div>
           </div>
@@ -465,6 +466,22 @@ export default function Home() {
                   <img
                     src="/logo/apskin.png"
                     alt="APSKIN"
+                    className="h-16 w-auto object-contain sm:h-20"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
+                  <img
+                    src="/logo/ieee.jpeg"
+                    alt="IEEE"
+                    className="h-16 w-auto object-contain sm:h-20"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
+                  <img
+                    src="/logo/ieeeims.png"
+                    alt="IEEE IMS"
                     className="h-16 w-auto object-contain sm:h-20"
                     loading="lazy"
                   />
