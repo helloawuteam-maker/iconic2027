@@ -7,7 +7,7 @@ export default function SiteFooter() {
           <p className="mt-2 text-sm text-white/85">
             2027 International Conference on Innovation and Quality in Engineering and Technology
           </p>
-          <p className="mt-3 text-xs text-white/80">Four Star by Trans Hotel, Bali Indonesia · August 27-29, 2027</p>
+          <p className="mt-3 text-xs text-white/80">Bali Indonesia · August 27-29, 2027</p>
         </div>
         <div>
           <div className="text-sm font-black">Quick Links</div>
