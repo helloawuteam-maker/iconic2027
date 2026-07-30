@@ -158,7 +158,7 @@ export default function Home() {
             <div className="grid">
               <div className="text-center">
                 <h2 className="text-sm font-black uppercase tracking-[0.18em] text-white/95 md:text-base">
-                  August 27-29, 2027 | Four Star by Trans Hotel, Bali Indonesia
+                  August 27-29, 2027 | Bali Indonesia
                 </h2>
 
                 <h1 className="mt-5 text-4xl font-black uppercase leading-[0.92] tracking-wide drop-shadow md:text-6xl">
@@ -197,7 +197,7 @@ export default function Home() {
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Venue</dt>
                       <dd className="mt-2 text-sm font-semibold text-white">
-                        Four Star by Trans Hotel, Bali Indonesia
+                        Bali Indonesia
                       </dd>
                     </div>
                     <div className="px-5 py-4">
@@ -232,15 +232,15 @@ export default function Home() {
             <div className="mt-6 rounded-2xl bg-white p-4 shadow-sm">
               <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
                 <div className="col-span-2 flex items-center rounded-xl border border-black/10 bg-white px-4 py-4 md:col-span-1">
-                  <h3 className="text-sm font-black text-zinc-900">Supported by</h3>
+                  <h3 className="text-sm font-black text-zinc-900">Organized by</h3>
                 </div>
-                {["/logo/akb.jpeg", "/logo/awu.png", "/logo/nozomi.jpeg"].map((src) => (
+                {["/logo/apskin.png", "/logo/ieee.jpeg", "/logo/ieeeims.png"].map((src) => (
                   <div
                     key={src}
                     className="flex items-center justify-center rounded-xl border border-black/10 bg-white px-4 py-5"
-                    aria-label="Supporter"
+                    aria-label="Organizer"
                   >
-                    <img src={src} alt="Supporter logo" className="h-16 w-auto max-w-full object-contain" loading="lazy" />
+                    <img src={src} alt="Organizer logo" className="h-16 w-auto max-w-full object-contain" loading="lazy" />
                   </div>
                 ))}
               </div>
@@ -261,7 +261,7 @@ export default function Home() {
               Bringing Human Behavior and Social Dynamics into the Technological Ecosystem
             </p>
             <p className="mt-4 text-sm font-black opacity-95">
-              Four Star by Trans Hotel, Bali Indonesia
+              Bali Indonesia
               <br />
               August 27-29, 2027
             </p>
@@ -476,28 +476,28 @@ export default function Home() {
         <section className="bg-white py-16">
           <div className="mx-auto w-full max-w-6xl px-5">
             <div className="text-center">
-              <h3 className="text-xl font-black text-[#2b327e]">Organized by</h3>
+              <h3 className="text-xl font-black text-[#2b327e]">Supported by</h3>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
                 <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
                   <img
-                    src="/logo/apskin.png"
-                    alt="APSKIN"
+                    src="/logo/akb.jpeg"
+                    alt="AKB"
                     className="h-16 w-auto object-contain sm:h-20"
                     loading="lazy"
                   />
                 </div>
                 <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
                   <img
-                    src="/logo/ieee.jpeg"
-                    alt="IEEE"
+                    src="/logo/awu.png"
+                    alt="AWU"
                     className="h-16 w-auto object-contain sm:h-20"
                     loading="lazy"
                   />
                 </div>
                 <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
                   <img
-                    src="/logo/ieeeims.png"
-                    alt="IEEE IMS"
+                    src="/logo/nozomi.jpeg"
+                    alt="Nozomi"
                     className="h-16 w-auto object-contain sm:h-20"
                     loading="lazy"
                   />

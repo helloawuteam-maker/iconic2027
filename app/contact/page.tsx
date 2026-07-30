@@ -37,7 +37,7 @@ export default function ContactPage() {
 
         <section className="mt-4 rounded-2xl border border-black/5 bg-white p-6 shadow-sm">
           <h2 className="text-xl font-black">Venue</h2>
-          <p className="mt-3 text-sm text-zinc-700">Four Star by Trans Hotel, Bali Indonesia</p>
+          <p className="mt-3 text-sm text-zinc-700">Bali Indonesia</p>
         </section>
       </main>
 
