@@ -425,16 +425,32 @@ export default function Home() {
           <div className="mx-auto w-full max-w-6xl px-5">
             <div className="grid gap-10 md:grid-cols-2">
               <div className="text-center md:text-left">
-                <h3 className="text-xl font-black text-[#633193]">ICONIQ 2026 Paper Template (Ms. Word Only)</h3>
-                <p className="mt-2 text-sm font-semibold text-zinc-600">Please refer to the paper template Manuscripts</p>
-                <div className="mt-6 flex justify-center md:justify-start">
+                <h3 className="text-xl font-black text-[#633193]">ICONIQ 2027 Paper Template</h3>
+                <p className="mt-2 text-sm font-semibold text-zinc-600">Please refer to the IEEE paper template</p>
+                <div className="mt-6 flex flex-wrap justify-center gap-3 md:justify-start">
                   <a
-                    className="inline-flex items-center justify-center rounded-2xl bg-[#633193] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#5a2c86]"
-                    href="https://docs.google.com/document/d/1teY5RQxZFEVtLHmTnxPCQroBIbnhEpDT/edit?usp=sharing&ouid=102284237185700741961&rtpof=true&sd=true"
+                    className="inline-flex items-center justify-center rounded-2xl bg-[#633193] px-6 py-3 text-sm font-black text-white shadow-sm hover:bg-[#5a2c86]"
+                    href="https://ieee-org.widen.net/content/ge5anzdecd/original/conference-template-a4.docx"
                     target="_blank"
                     rel="noopener"
                   >
-                    Download Template
+                    Word Template
+                  </a>
+                  <a
+                    className="inline-flex items-center justify-center rounded-2xl border border-[#633193]/25 bg-white px-6 py-3 text-sm font-black text-[#633193] shadow-sm hover:bg-[#633193]/10"
+                    href="https://ieee-org.widen.net/content/ssylclqqfn/original/conference-latex-template.zip"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    LaTeX Template
+                  </a>
+                  <a
+                    className="inline-flex items-center justify-center rounded-2xl border border-[#633193]/25 bg-white px-6 py-3 text-sm font-black text-[#633193] shadow-sm hover:bg-[#633193]/10"
+                    href="https://ieee-org.widen.net/content/t4f4hdfmwu/original/IEEEtranBST2.zip"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Bibliography
                   </a>
                 </div>
               </div>
