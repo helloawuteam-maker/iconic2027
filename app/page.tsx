@@ -186,7 +186,7 @@ export default function Home() {
                 <div className="mt-5 flex flex-wrap justify-center gap-3">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#633193] px-10 py-3 text-sm font-black text-white shadow-[0_14px_34px_rgba(99,49,147,0.35)] hover:bg-[#5a2c86]"
-                    href="https://erscience.com/index.php/iconiq"
+                    href="https://iconiq2027.edas.info/"
                   >
                     Register Now
                   </a>
@@ -463,7 +463,7 @@ export default function Home() {
                 <div className="mt-6 flex justify-center md:justify-start">
                   <a
                     className="inline-flex items-center justify-center rounded-xl bg-[#2b327e] px-8 py-3 text-sm font-black text-white shadow-sm hover:bg-[#1f2460]"
-                    href="https://erscience.com/index.php/iconiq"
+                    href="https://iconiq2027.edas.info/"
                   >
                     Submit Your Paper
                   </a>
