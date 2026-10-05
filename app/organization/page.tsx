@@ -516,26 +516,12 @@ export default function OrganizationPage() {
                 </thead>
                 <tbody className="divide-y divide-black/5 bg-white">
                   <tr className="align-top">
-                    <td className="px-4 py-3 font-semibold text-zinc-800">Advisor</td>
-                    <td className="px-4 py-3 text-zinc-700">Dr. Eng. Ir. Anggraini Puspita Sari, S.T., M.T.</td>
-                  </tr>
-                  <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">General Chair</td>
-                    <td className="px-4 py-3 text-zinc-700">Dr.Eng. Muhammad Zulhaj Aliansyah, S.T., M.Eng.</td>
-                  </tr>
-                  <tr className="align-top">
-                    <td className="px-4 py-3 font-semibold text-zinc-800">Treasurer</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Aviolla Terza Damaliana, S.Si., M.Stat. (Chair)
-                      <br />
-                      Dr. Mega Rizkya Afiana (Co-chair)
-                    </td>
+                    <td className="px-4 py-3 text-zinc-700">Dr. Eng. Ir. Dwi Arman Prasetya, ST., MT., IPU</td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Technical Program</td>
                     <td className="px-4 py-3 text-zinc-700">
-                      Dr. Eng. Ir. Dwi Arman Prasetya, ST., MT., IPU (Chair)
-                      <br />
                       Dr. Eng, Ir. Irfan Mujahidin, S.T., M.T., M.Sc., IPP (Co-chair)
                     </td>
                   </tr>
@@ -543,42 +529,26 @@ export default function OrganizationPage() {
                     <td className="px-4 py-3 font-semibold text-zinc-800">Secretary</td>
                     <td className="px-4 py-3 text-zinc-700">
                       Dr.Eng. Adelhard Beni Rehiara, S.T., M.Eng. (Chair)
-                      <br />
-                      Shindi Shella May Wara, M. Stat. (Co-chair)
                     </td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Secretariat</td>
                     <td className="px-4 py-3 text-zinc-700">
                       Dr. Eng., Nurlaili Humaidah, S.T., M.T. (Chair)
-                      <br />
-                      Andri Fauzan Adziima, M. Si. (Co-chair)
                     </td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Event Division</td>
                     <td className="px-4 py-3 text-zinc-700">
                       Dr. Agustami Sitorus, M.Sc. (Chair)
-                      <br />
-                      Muhammad Nasrudin, M. Stat. (Co-chair)
                     </td>
                   </tr>
                   <tr className="align-top">
                     <td className="px-4 py-3 font-semibold text-zinc-800">Publication</td>
                     <td className="px-4 py-3 text-zinc-700">
-                      Alfan Rizaldy Pratama, S.Tr.T., M.Tr.Kom. (Chair)
-                      <br />
                       Dr.Eng. Puput Dani Prasetyo Adi, S.Kom., M.T. (Co-chair)
                       <br />
                       Lintang Inggrihaning Putri, S.Ak. (Member)
-                    </td>
-                  </tr>
-                  <tr className="align-top">
-                    <td className="px-4 py-3 font-semibold text-zinc-800">International Program</td>
-                    <td className="px-4 py-3 text-zinc-700">
-                      Dr. Iwan Pramesti Anwar, S.Si., M.Si. (Chair)
-                      <br />
-                      Amri Muhaimin, S.Stat., M.Stat., M.S. (Co-chair)
                     </td>
                   </tr>
                   <tr className="align-top">
@@ -593,8 +563,6 @@ export default function OrganizationPage() {
                     <td className="px-4 py-3 font-semibold text-zinc-800">General Affairs</td>
                     <td className="px-4 py-3 text-zinc-700">
                       Nurul Awaliyah Mukhlis, M.Pd. (Chair)
-                      <br />
-                      Uswatun Khasana, S.Tr.T. (Co-chair)
                     </td>
                   </tr>
                 </tbody>

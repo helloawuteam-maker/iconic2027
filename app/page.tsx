@@ -193,7 +193,7 @@ export default function Home() {
                 </div>
 
                 <div className="mt-6 overflow-hidden rounded-2xl border border-white/15 bg-white/10 shadow-sm backdrop-blur">
-                  <dl className="grid gap-px bg-white/10 sm:grid-cols-2 md:grid-cols-4">
+                  <dl className="grid gap-px bg-white/10 sm:grid-cols-2 md:grid-cols-3">
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Venue</dt>
                       <dd className="mt-2 text-sm font-semibold text-white">
@@ -203,18 +203,6 @@ export default function Home() {
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Event Format</dt>
                       <dd className="mt-2 text-sm font-semibold text-white">Virtual</dd>
-                    </div>
-                    <div className="px-5 py-4">
-                      <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Call / Whatsapp</dt>
-                      <dd className="mt-2 text-sm font-semibold">
-                        <a className="text-white hover:underline" href="tel:+6289524180486">
-                          +62 895-2418-0486
-                        </a>
-                        <span className="text-white/80"> / </span>
-                        <a className="text-white hover:underline" href="tel:+62895335857578">
-                          +62 895-3358-57578
-                        </a>
-                      </dd>
                     </div>
                     <div className="px-5 py-4">
                       <dt className="text-xs font-black uppercase tracking-[0.18em] text-white/90">Email us</dt>
@@ -341,23 +329,23 @@ export default function Home() {
                 <tbody className="text-sm font-semibold text-zinc-800">
                   <tr>
                     <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">International Presenter</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">35 USD</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">70 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">350 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">400 USD</td>
                   </tr>
                   <tr className="bg-black/[0.015]">
                     <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">Indonesian Presenter</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">IDR 500,000</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">IDR 1,000,000</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">IDR 3,500,000</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">IDR 4,000,000</td>
                   </tr>
                   <tr>
                     <td className="border-b border-black/5 px-4 py-3 font-black text-zinc-900">International Participant</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">10 USD</td>
-                    <td className="border-b border-black/5 px-4 py-3 text-center">35 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">50 USD</td>
+                    <td className="border-b border-black/5 px-4 py-3 text-center">100 USD</td>
                   </tr>
                   <tr className="bg-black/[0.015]">
                     <td className="px-4 py-3 font-black text-zinc-900">Indonesian Participant</td>
-                    <td className="px-4 py-3 text-center">IDR 100,000</td>
-                    <td className="px-4 py-3 text-center">IDR 600,000</td>
+                    <td className="px-4 py-3 text-center">IDR 500,000</td>
+                    <td className="px-4 py-3 text-center">IDR 1,000,000</td>
                   </tr>
                 </tbody>
               </table>
@@ -482,14 +470,6 @@ export default function Home() {
                   <img
                     src="/logo/akb.jpeg"
                     alt="AKB"
-                    className="h-16 w-auto object-contain sm:h-20"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="flex items-center justify-center rounded-2xl border border-black/5 bg-white px-10 py-8 shadow-sm">
-                  <img
-                    src="/logo/awu.png"
-                    alt="AWU"
                     className="h-16 w-auto object-contain sm:h-20"
                     loading="lazy"
                   />

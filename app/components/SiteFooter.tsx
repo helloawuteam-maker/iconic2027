@@ -22,8 +22,6 @@ export default function SiteFooter() {
           <div className="text-sm font-black">Contact</div>
           <div className="mt-3 grid gap-2 text-sm text-white/85">
             <a className="hover:underline" href="mailto:iconiq@apskin.org">iconiq@apskin.org</a>
-            <a className="hover:underline" href="tel:+6289524180486">Chusna Maulida +62 895-2418-0486</a>
-            <a className="hover:underline" href="tel:+62895335857578">Sasa +62 895-3358-57578</a>
           </div>
         </div>
       </div>
