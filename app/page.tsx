@@ -31,12 +31,14 @@ const keynoteSpeakers: Speaker[] = [
     name: "Prof. József András Fülöp",
     role: "ELI-ALPS Research Institute, Hungary",
     expertise: "Expert in Advanced Laser Systems and Research",
+    note: "To be confirmed",
     imageSrc: "/speakers/jozsef.jpeg",
   },
   {
     name: "Prof. Nur Iriawan, M.Ikom, Ph.D.",
     role: "Statistic Department, Institut Teknologi Sepuluh Nopember (ITS), Indonesia",
     expertise: "Expert in Statistics and Data Analysis",
+    note: "To be confirmed",
     imageSrc: "/speakers/nur-iriawan.jpg",
   },
 ];
